@@ -1,0 +1,21 @@
+body {
+	background-image: url("../img/bg.png");
+	background-size: contain;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	.flex-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 100px;
+		img {
+			width: 150px;
+			height: 150px;
+		}
+		h1, h2 {
+			font-weight: normal;
+			margin: 0;
+		}
+	}
+}
